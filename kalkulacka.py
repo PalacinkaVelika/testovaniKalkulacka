@@ -9,14 +9,19 @@ class Kalkulacka():
         return eval(self._horni_radek)
     
     def tlacitko_plus(self):
-        pass
+        self._horni_radek = self._horni_radek + "+"
+    
     def tlacitko_minus(self):
-        pass
+        self._horni_radek = self._horni_radek + "-"
+    
     def tlacitko_deleno(self):
-        pass
+        self._horni_radek = self._horni_radek + "/"
+    
     def tlacitko_krat(self):
-        pass
+        self._horni_radek = self._horni_radek + "*"
+    
     def tlacitko_rovna_se(self):
-        pass
+        self._vysledek_radek = self.vypocitej()
+    
     def tlacitko_cislo(self, cislo):
-        pass
+        self._horni_radek = self._horni_radek + str(cislo)
